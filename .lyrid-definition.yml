@@ -1,0 +1,12 @@
+name: go1x_chi
+description: App Description
+ignoreFiles: .git
+modules:
+- name: template
+  language: go1.x
+  web: chi
+  description: Module description
+  functions:
+  - name: entry
+    entry: entry.go
+    description: the entry point for the function
